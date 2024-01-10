@@ -20,3 +20,5 @@ strip = 'symbols'
 [package.metadata.stylance]
 output = "./styles/stylance/style.scss"
 
+[package.metadata.wasm-pack.profile.release]
+wasm-opt=['-Oz']
