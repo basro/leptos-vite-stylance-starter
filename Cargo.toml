@@ -1,5 +1,5 @@
 [package]
-name = "leptos-vite-stylance-starter"
+name = "{{project-name}}"
 version = "0.1.0"
 edition = "2021"
 

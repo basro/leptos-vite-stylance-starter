@@ -21,6 +21,6 @@ build: build-wasm build-styles
 _build-wasm profile:
 	wasm-pack build \
 		--target web \
-		--{{profile}} \
+		--{% raw %}{{profile}}{% endraw %} \
 		--out-name client \
 		--weak-refs 

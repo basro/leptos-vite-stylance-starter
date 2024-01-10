@@ -1,17 +1,24 @@
 # Leptos CSR with vite and stylance
 
-This is a template for using Leptos in CSR mode with Vite as bundler and stylance for styles.
+This is a cargo-generate template for using Leptos in CSR mode with Vite as bundler and stylance for styles.
+
+**Warning:** This repo is meant to be used with cargo generate only, the repo is sprinkled with cargo generate templating tags like {{package-name}} and thus trying to locally clone this repo without the help of cargo generate wont result in a working project. (You'd have to manually replace the templating tags if you try to do that).
 
 ## Installation
 
-Make sure  you have NodeJS installed in your system then run:
-```bash
-npm install
-```
-
 Install the following cargo tools:
 ```bash
-cargo install wasm-pack cargo-watch just stylance-cli
+cargo install cargo-generate wasm-pack cargo-watch just stylance-cli
+```
+
+Run cargo generate:
+```
+cargo generate --git https://github.com/basro/leptos-vite-stylance-starter.git
+```
+
+Make sure you have NodeJS installed in your system then run:
+```bash
+npm install
 ```
 
 ## Usage
