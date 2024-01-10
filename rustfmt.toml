@@ -1,0 +1,3 @@
+# This file is needed because of leptosfmt
+
+edition = "2021"
