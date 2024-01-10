@@ -1,6 +1,6 @@
 # Leptos CSR with vite and stylance
 
-This is a template for using Leptos in CSR mode and Vite as bundler and stylance for styles.
+This is a template for using Leptos in CSR mode with Vite as bundler and stylance for styles.
 
 ## Installation
 
@@ -35,4 +35,4 @@ To make a release build run:
 just build
 ```
 
-which will first build your wasm file, then build styles with stylance-cli and finally use vite to bundle bundle it into the dist folder.
+which will first build your wasm file, then build styles with stylance-cli and finally use vite to bundle it into the dist folder.

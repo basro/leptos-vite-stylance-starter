@@ -8,8 +8,8 @@ pub fn main() {
     leptos::mount_to_body(|| {
         leptos::view! {
             <div class=style::container>
-                <h1 class=style::header>"Leptos vite starter!!"</h1>
-                <p class=style::paragraph>"This is an example of how to write"</p>
+                <h1 class=style::header>"Leptos vite starter"</h1>
+                <p class=style::paragraph>"Ready to go!"</p>
             </div>
         }
     });
