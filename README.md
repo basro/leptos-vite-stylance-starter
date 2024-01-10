@@ -20,6 +20,7 @@ Make sure you have NodeJS installed in your system then run:
 ```bash
 npm install
 ```
+This will install vite and sass locally for this project (as dev dependencies).
 
 ## Usage
 
