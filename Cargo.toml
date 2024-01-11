@@ -8,7 +8,7 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 leptos = { version = "0.5.4", features = ["csr", "nightly"] }
-stylance = { version = "0.0.6", features = ["nightly"] }
+stylance = { version = "0.0.7", features = ["nightly"] }
 wasm-bindgen = "0.2.89"
 
 [profile.release]
