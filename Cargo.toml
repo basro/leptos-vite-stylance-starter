@@ -8,7 +8,7 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 leptos = { version = "0.5.4", features = ["csr", "nightly"] }
-stylance = { version = "0.0.7", features = ["nightly"] }
+stylance = { version = "0.0.8", features = ["nightly"] }
 wasm-bindgen = "0.2.89"
 
 [profile.release]
@@ -18,7 +18,7 @@ opt-level = 'z'
 strip = 'symbols'
 
 [package.metadata.stylance]
-output = "./styles/stylance/style.scss"
+output_dir = "./styles/"
 
 [package.metadata.wasm-pack.profile.release]
 wasm-opt=['-Oz']
