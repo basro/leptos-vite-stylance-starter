@@ -1,0 +1,10 @@
+[template]
+ignore = ["test"]
+
+[placeholders.gh_workflow]
+prompt = "Include github pages deploy workflow?"
+type = "bool"
+default = true
+
+[conditional.'!gh_workflow']
+ignore = ["{{github_folder}}.github"]
