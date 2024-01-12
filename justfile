@@ -2,12 +2,14 @@ default:
   @just --list
 
 dev:
+	-@just _build-wasm dev
 	stylance . --watch & \
 	npx vite --clearScreen false & \
 	cargo-watch \
-	-s 'just _build-wasm dev' \
-	-w './src' \
-	-i '*.css' -i '*.scss'
+		-s 'just _build-wasm dev' \
+		-w './src' \
+		-i '*.css' -i '*.scss' \
+		--postpone
 
 build-wasm:
 	@just _build-wasm release
